@@ -1,0 +1,2051 @@
+body{background-color: #000;}
+
+
+
+/*<< HEADER >>*/
+header{background-color: #0c060b;padding: 10px 0;}
+header .l0go{width: 200px;margin: 0 auto;position: relative;}
+header .l0go > img{width: 100%;}
+
+header .l0gIn{position: absolute;right: 30px;top: 35px;}
+header .l0gIn a{font-weight: 200;}
+
+/*<< BANNER >>*/
+#banner001 {}
+#banner001 div>img{width: 100%;max-width: 100%}
+
+
+/*<< 4CAROUSEL >>*/
+
+
+#nwAva .vCard{margin-bottom: 30px;}
+#nwAva .col-sm-6:nth-child(2n+1){clear: both;}
+#nwAva .secHdr h4 {font-weight: 400;}
+
+.brMore {text-align: center; margin-bottom: 30px;}
+.brMore .dropdown{display: inline-block;}
+.brMore .dropdown .fa-angle-down.dropRight{
+    color: #fff;display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 0px;
+    vertical-align: middle;
+   /* border-top: 8px dashed;*/
+    /*border-top: 4px solid \9;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;*/
+font-weight: 400;
+font-size: 25px;
+position: absolute;
+right: 0;
+top: 15px;
+}
+.brMore .dropdown .fa-angle-down.dropLeft{
+    color: #fff;display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: -2px;
+    vertical-align: middle;
+   /* border-top: 8px dashed;*/
+    /*border-top: 4px solid \9;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;*/
+font-weight: 400;
+font-size: 25px;
+position: absolute;
+left: -14px;
+top: 15px;
+}
+.dropDown .dropdown .btn span.dropBottom{
+   top: 17px;
+}
+
+
+
+.brMore .dropdown .dropdown-menu{width: 300px;min-width: 300px;float: none;left: 50%;transform: translateX(-50%);background-color: #484848;}
+.brMore .dropdown button{text-transform: uppercase;background-color: transparent;font-size: 30px;border: none;color: #fff!important;font-weight: 400;letter-spacing: 4px;}
+.brMore .dropdown button:focus,
+.brMore .dropdown button:active{background-color: transparent;}
+.btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default{background-color: transparent;border: none;outline: none}
+
+.btn-default:active:hover, .btn-default.active:hover, .open > .dropdown-toggle.btn-default:hover, .btn-default:active:focus, .btn-default.active:focus, .open > .dropdown-toggle.btn-default:focus, .btn-default:active.focus, .btn-default.active.focus, .open > .dropdown-toggle.btn-default.focus{background-color: transparent!important;border: none;outline: none}
+
+.brMore  .dropdown-menu > li > a {
+    display: block;
+    padding: 10px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #a7a7a7;
+    white-space: nowrap;
+    font-size: 16px;
+    border-bottom: 1px solid #383838;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.brMore .btn{
+    cursor: text;
+}
+
+
+
+.bgCta{background-image: url(../img/ctbBg.jpg);background-size: cover;}
+.bgCta .hoCta{padding: 150px 0;}
+.bgCta .hoCta .hoCtaInfo p{margin: 30px 0 20px 0;}
+
+#fSocial h4{letter-spacing: 0;font-weight: 400;color: #464646;}
+#fSocial ul {margin-top: 64px;}
+#fSocial ul li{display: inline-block;}
+
+
+/*<< FOOTER >>*/
+
+footer{padding: 100px 0;}
+footer .col-sm-6{border-right: 1px solid #3c3c3c;border-left: 1px solid #3c3c3c;}
+
+footer .fColsUl ul{text-align: center;margin-top: 20px;}
+footer .fColsUl ul li{display: inline-block;margin: 0 20px;}
+footer .fColsUl ul li > a{color: #fff;font-size: 18px;font-weight: 300;}
+footer .fColsUl p{margin: 20px 0;text-align: center;font-size: 20px;}
+
+/*<< UPLOAD PAGE CSS >>*/
+
+.hdr-bg {background-image: url(../img/upload/menubg.png); background-repeat: no-repeat; min-width: 100%;padding: 21px 0px;border-bottom: 1px solid #3c3c3c;}
+.l0go1 {position: relative; margin: 0 auto;width: 100px;text-align: center;}
+header .l0go > img {width: 100%;}
+.menu {position: absolute; top: 20px; right: 40px;font-size: 20px;color: #fff!important; font-weight: 400;}
+
+.menu ul li a {color: #fff; text-transform: uppercase; line-height: 30px;}
+.menu .nav > li > a:hover, .nav > li > a:focus {color: #f7c25f; background-color: #000;}
+.menu ul li {display: inline-block; position: relative;}
+
+.menu ul li a:active {color: #f7c25f; font-weight: 500;}
+
+
+.menu ul li:hover ul {display: block;}
+
+.menu ul li ul{position: absolute;left: 15px;top: 100%;background-color: #333;padding: 10px;min-width: 215px;display: none;z-index: 999999;}
+.menu ul li ul li {display: block;}
+.menu ul li ul li a {font-size: 12px;}
+
+
+.menu ul li ul li a:hover {color: #f7c25f;}
+
+
+.up-film {border: 1px solid #3c3c3c; padding: 47px 50px;}
+.up-film h3 {text-align: center;margin-top: 0px;margin-bottom: 20px;color: #fff;}
+.up-down .dropdown .btn {background-color: #000; border: 1px solid #fff;border-radius: 0; width: 100%; min-height: 47px;color: #fff;font-size: 16px;}
+
+.uploading {margin-top: 40px;}
+
+.up-down .dropdown {display: inline-block; width: 44%;}
+.up-down .dropdown .btn {text-align: left;}
+.up-down .dropdown .btn span {position: absolute;top: 22px;right: 18px;}
+.up-down .genre {position: absolute; right: 15px;}
+/*.up-down .dropdown .btn .caret {margin-left: 70px;}*/
+.up-down .dropdown .dropdown-menu {
+    width: 100%;
+    min-width: 100px;
+    float: none;
+    background-color: #484848;
+}
+.up-down .dropdown-menu > li > a {
+    display: block;
+    padding: 10px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #a7a7a7;
+    white-space: nowrap;
+    font-size: 16px;
+    border-bottom: 1px solid #383838;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.file-upload { margin-top: 30px;}
+.up-down .inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+.inputfile + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    display: inline-block;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: grey;
+}
+.inputfile + label {
+    height: 100%;
+    color: #000;
+    display: inline-block;
+    font-weight: 400;
+    margin: 0;
+    position: relative;
+    width: 100%;
+    display: block;
+}
+.inputfile + label span {
+    min-width: 303px;
+    min-height: 47px;
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: middle;
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #fff;
+    padding: 10px;
+    font-weight: 400;
+}
+.inputfile + label p {display: inline-block;margin: 0;padding: 12px 10px;position: absolute;left: 0;top: 0;height: 100%;background: #fff;}
+.movie_name {color: #95989a;}
+.movie_name input {width: 100%; min-height: 47px; padding: 5px 10px;font-size: 19px;}
+.movie_name textarea { width: 100%;margin-top: 30px;min-height: 165px; font-size: 19px;padding: 5px 10px;}
+
+.mm-details {margin-top: 40px;color: #fff;}
+.mm-details img {width: 100%;}
+.mm-details .actors {position: relative;display: inline-block; border: 1px solid #76787a;margin-bottom: 30px;background-image: url(../img/upload/aa.png);background-repeat: no-repeat;background-size: cover;width: 100%;min-height: 250px;}
+.mm-details .actors-details { position: absolute;text-align: center;transform: translate(-50%,-50%);top: 50%;left: 50%;width: 100%;}
+.mm-details .actors-details p {font-size: 16px;}
+.mm-details .actors-details p {font-size: 16px;}
+.mm-details .actors .fa {
+    margin-right: 5px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 23px;
+    height: 23px;
+    padding: 3px;
+}
+.mm-details input {background-color: rgba(0, 0, 0, 0);border: 1px solid rgba(255, 255, 255, 0);color: #fff;text-align: center;font-size: 16px;}
+.mm-details button {
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    text-decoration: underline;
+}
+.mm-details a {font-size: 15px;
+    color: #fff;text-decoration: underline;
+}
+.s-mit {
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid #57595a;
+    color: #95989a;
+    text-transform: uppercase;
+    padding: 19px 29px;
+    font-size: 18px;
+    min-width: 234px;
+}
+.s-mit:hover {background-color: #fff;color: #3c3c3c;transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+border-color: #fff;
+}
+
+
+
+/*.input_fields_director {display: none;}*/
+.act1 {display: none;color: #000;}
+.direc1 {display: none;color: #000;}
+.cine1 {display: none;color: #000;}
+.pro1 {display: none;color: #000;}
+.wri1 {display: none;color: #000;}
+.edi1 {display: none;color: #000;}
+
+
+
+.p-films {text-align: center;}
+.p-films h5 {font-size: 30px; font-weight: 300; color: #fff;text-transform: uppercase;padding: 0px 5px;margin-bottom: 50px;}
+.p-films h5 span { margin: 0 10px;}
+.p-films h5 span.caret {
+    color: #333;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    vertical-align: middle;
+    border-top: 8px dashed;
+    border-top: 4px solid \9;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+}
+
+
+.artists .vCard {margin-bottom: 20px;}
+.artists .vCard:last-child {margin-bottom: 0px;}
+.ftr {padding-top: 0px!important;}
+.artists .vCard .vCardInfo {bottom: 4px;left: 10px;text-align: left;}
+.artists .vCard .vcardInfo2 .fa {font-size: 34px;}
+.artists .vCard .vcardInfo2 {position: absolute; top: 13px; left: 0;width: 100%;}
+.artists .vCard .vcardInfo2 h5 {color: #fff; text-transform: none;font-weight: 300;margin-bottom: 0;}
+.artists .vCard .vCardInfo h2 {font-size: 32px;font-weight: 400;}
+.artists .vCard .vCardInfo p  {font-size: 20px;text-transform: none;}
+
+.dropDown {padding: 0px;margin-top: 20px;}
+.dropDown .dropdown {max-width: 60%; margin: 0 auto;}
+.dropDown .col-sm-4:first-child .dropdown {min-width: 60%; float: right;}
+.dropDown .col-sm-4:last-child .dropdown {min-width: 60%; float: left;}
+.dropDown .dropdown .btn {background-color: #000; border: 1px solid #fff;border-radius: 0; width: 100%; min-height: 47px;color: #fff;font-size: 16px;text-align: left;padding: 6px 20px;}
+.dropDown .dropdown .btn span {position: absolute;right: 20px;top: 23px;}
+.dropDown .dropdown .rotate45 {transform: rotate(45deg);top: 14px!important;}
+.dropDown .dropdown .dropdown-menu {
+    width: 100%;
+    min-width: 100px;
+    float: none;
+    background-color: #484848;
+}
+.dropDown .dropdown-menu > li > a, .dropDown .dropdown-menu select option {
+    display: block;
+    padding: 10px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #a7a7a7;
+    white-space: nowrap;
+    font-size: 16px;
+    border-bottom: 1px solid #383838;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.dropdown .search-btn {
+    width: 100%;
+    min-height: 47px;
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff;
+    font-size: 16px;
+    text-align: left;
+    padding: 6px 20px;
+}
+.col-white {color: #fff;}
+.col-white .fa {
+    position: absolute;
+    right: 16px;
+}
+
+.ftr .p-films h5 {margin-bottom: 80px;}
+.uploadFilms {padding-bottom: 125px;}
+
+#movieReview {padding-top: 125px;}
+#movieReview.mv2 {padding-top: 60px;}
+#movieReview .vCard {margin-bottom: 30px;width: 100%;}
+#movieReview .vCard .timer {position: absolute;top: 5px;right: 10px;font-size: 18px;color: #fff;font-weight: 200;}
+#movieReview .vCard .vCardInfo {left: 0;bottom: 0;padding: 24px;}
+#movieReview .vCard .vCardInfo h2 {font-size: 35px;text-transform: uppercase;margin-bottom: 14px;}
+#movieReview .vCard .vCardInfo p {font-size: 15px;color: #ececec;margin-bottom: 0;}
+.up-down .file-upload .inputfile + label span.filmname {
+    padding-left: 180px;
+    font-size: 15px;
+}
+.up-down .file-upload .inputfile + label span.thumbnailname {
+    padding-left: 220px;
+    font-size: 15px;
+}
+
+@media(max-width:1920px){
+    .up-down .file-upload .inputfile + label span {
+        min-width: 325px;
+        
+    }
+ /*   #filmvimeouploadsucess .s-mit{ margin-left: 160px !important;}*/
+}
+@media(max-width:1500px){
+    #movieReview .vCard {min-height: 280px;}
+    #movieReview .vCard .vCardInfo p {font-size: 16px;}
+    .uploadFilms .p-films h5 {font-size: 18px;}
+    .artists .vCard .vCardInfo p {font-size: 18px;}
+    .artists .vCard .vCardInfo h2 {font-size: 30px;}
+    
+}
+
+@media(max-width:1366px){
+    .up-down .file-upload .inputfile + label span.filmname {
+            min-width: 202px;
+            padding-left: 150px;
+    }
+     .up-down .file-upload .inputfile + label span.thumbnailname {
+            min-width: 202px;
+            padding-left: 180px;
+    }
+    .up-down .file-upload .inputfile + label p {
+        font-size: 14px;
+        
+    }
+    .movie_name input {
+        font-size: 16px;
+    }
+    .movie_name textarea {
+        font-size: 16px;
+    }
+    .up-down .dropdown .btn {
+        font-size: 14px;
+    }
+    .up-down .dropdown-menu > li > a {
+        font-size: 14px;
+    }
+    .artists .vCard .vcardInfo2 .fa {
+        font-size: 30px;
+    }
+    .artists .vCard .vCardInfo h2 {
+        font-size: 28px;
+    }
+    .artists .vCard .vCardInfo p {
+        font-size: 16px;
+    }
+    .s-mit {
+        padding: 15px 40px;
+        font-size: 16px;
+    }
+    .actors .actors-details h5 {
+            font-size: 16px;
+        margin: 5px auto;
+    }
+    .mm-details .actors .fa {
+        width: 20px;
+    height: 20px;
+    padding: 4px;
+    font-size: 10px;
+    }
+    .mm-details button {
+        font-size: 14px;
+    }
+    .artists .vCard .vcardInfo2 h5 {
+            font-size: 16px;
+    }
+    .artists .vCard {
+        margin-bottom: 40px;
+    }
+    .up-film h3 {
+        font-size: 30px;
+    }
+    .menu .navbar-nav > li > a {
+        font-size: 14px;
+    }
+    .mm-details .actors-details p {
+        margin-bottom: 4px;
+    }
+    #movieReview .vCard .vCardInfo h2 {
+            font-size: 28px;
+            margin-bottom: 10px;
+    }
+    
+    #movieReview .vCard .vCardInfo {
+        padding: 15px;
+    }
+    #movieReview .vCard .timer {
+        font-size: 16px;
+    }
+    .l0go1 img {
+        width: 80%;
+    }
+    .mm-details .actors {
+            min-height: 242px;
+            margin-bottom: 22px;
+    }
+    .up-film {
+        padding: 30px 35px;
+    }
+    .uploadFilms .p-films h5 span {margin: 0 8px;}
+    .uploading {margin-top: 25px;}
+}
+
+@media(max-width:1280px){
+    .up-down .file-upload .inputfile + label p {
+            font-size: 12px;
+    }
+    .up-down .file-upload .inputfile + label span {
+        min-width: 192px;
+
+    }
+    .p-films h5 {
+            font-size: 18px;
+    }
+    .artists .vCard .vcardInfo2 .fa {
+        font-size: 24px;
+    }
+    .artists .vCard .vcardInfo2 {
+        top: 24px;
+    }
+    .mm-details input {
+        font-size: 14px;
+    }
+    section.section68 {
+        padding: 38px 0;
+    }
+    .mm-details .actors {
+        margin-bottom: 20px;
+    }
+    #movieReview {
+        padding-top: 60px;
+    }
+    .ftr .p-films h5 {
+        margin-bottom: 40px;
+    }
+    .uploadFilms .p-films h5 {
+        font-size: 18px;
+    }
+    .artists .vCard .vcardInfo2 {
+        top: 10px;
+    }
+}
+@media(max-width:1024px){
+    .up-down .dropdown .btn{
+        font-size: 12px;
+            padding: 4px 7px;
+    }
+    .up-film {
+        padding: 21px 21px;
+    }
+    .up-down .file-upload .inputfile + label span {
+           min-width: 142px;
+    }
+    .p-films h5 {
+            font-size: 14px;
+    }
+    .artists .vCard .vCardInfo h2 {
+        font-size: 24px;
+    }
+    .artists .vCard .vCardInfo p {
+        font-size: 14px;
+    }
+    .mm-details .actors {
+        margin-bottom: 20px;
+    }
+    .container-fluid {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .mm-details {
+        margin-top: 18px;
+    }
+    #movieReview .vCard .vCardInfo p{
+        font-size: 12px;
+    }
+    #movieReview .vCard .vCardInfo h2 {
+        font-size: 24px;
+        margin-bottom: 6px;
+    }
+    .menu .navbar-nav > li > a {
+        font-size: 14px;
+    }
+    .s-mit {
+        padding: 12px 30px;
+        font-size: 14px;
+    }
+    .up-film h3 {
+        font-size: 26px;
+    }
+    .uploading {
+        margin-top: 20px;
+    }
+    .artists .vCard .vcardInfo2 {
+        top: 15px;
+    }
+    .artists .vCard .vCardInfo {
+        bottom: 0px;
+        left: 8px;
+        text-align: left;
+    }
+    #movieReview {
+        padding-top: 35px;
+    }
+    .movie_name input {
+        font-size: 14px;
+    }
+    .movie_name textarea {
+        font-size: 14px;
+    }
+    .dropDown .dropdown .btn {
+        font-size: 14px;
+        padding: 6px 16px;
+    }
+    .dropDown .dropdown .btn span{
+        right: 17px;
+    }  
+    .movie_name textarea {min-height: 165px;margin-top: 20px;}
+    .file-upload {margin-top: 20px;}
+    
+}
+@media(max-width:991px){
+    .up-down .file-upload .inputfile + label span{
+            min-width: 221px;
+    }
+    .up-film {
+        padding: 21px 30px;
+        margin-bottom: 40px;
+    }
+    .p-films h5 {
+        font-size: 18px;
+    }
+    .artists .vCard {
+        width: 47%;
+        margin: 4px 7px;
+    }
+    .artists .vCard .vCardInfo {
+        bottom: 4px;
+        left: 14px;
+    }
+    .artists .vCard .vcardInfo2 {
+        top: 24px;
+    }
+    .menu .nav > li > a {
+        padding: 10px 12px;
+    }
+    #movieReview .vCard .vCardInfo h2 {
+            font-size: 22px;
+    }
+    #movieReview .vCard .timer {
+        font-size: 14px;
+    }
+    .dropDown .dropdown-menu > li > a{
+        font-size: 14px;
+    }
+        .up-down .dropdown .btn {
+            font-size: 14px;
+            font-weight: 300;
+        }
+        .inputfile + label p {
+            padding: 14px 10px;
+        }
+        
+    }
+    @media(max-width:764px){
+        .up-film {padding: 20px 20px;}
+        .up-film h3 {font-size: 22px;}
+        .movie_name {margin-top: 22px;}
+        .artists .vCard {width: 100%;margin: 0px 7px 20px 7px;}
+        .artists .vCard .vCardInfo h2 {font-size: 28px;margin-bottom: 5px;}
+        .artists .vCard .vCardInfo p {font-size: 16px;}
+        .artists .vCard .vcardInfo2 .fa {font-size: 30px;}
+        .up-down .genre {position: relative;margin-top: 18px;right: 0px;}
+        .up-film .up-down .dropdown {width: 100%;}
+        .menu .navbar-nav {margin: 0;}
+        
+    }
+
+
+    /*<< REVIEW PAGE CSS >>*/
+
+    .rHeader {background-color: #000;position: absolute;top: 60px;left: 50%;transform: translate(-50%,-50%);width: 100%;}
+    .rHeader .menu {position: absolute;top: 20px;right: 40px;font-size: 20px;color: #fff!important;font-weight: 400;z-index: 9999;}
+    .rBanner{position: relative;z-index: 01;}
+    .rBanner img {width: 100%;position: relative;}
+    .rBanner .playBtn {position: absolute;transform: translate(-50%,-50%);top: 36%;left: 50%;}
+    .rBanner .playBtn img {width: 127px;}
+    .filmDetails {padding: 50px 0px;}
+    .filmDetails .likeBtns {margin-top: 20px;position: absolute;right: -120px; width: 100%;}
+    .filmDetails .likeBtns a img {width: 25px;}
+    .filmDetails .likeBtns span {color: #95989a;font-size: 22px;position: absolute;margin-left: 7px;margin-top: 3px;font-weight: 400;}
+    .filmDetails .likeBtns .superlike {margin-left: 62px;}
+    .sRatings .vStars {display: inline-block;}
+    .sRatings .rating-container {display: inline-block;}
+    .sRatings .vRatings {display: inline-block;font-size: 20px;color: #95989a;font-weight: 200;padding-left: 20px;}
+    .sRatings .vStars .fa {color: #ffc520!important;font-size: 22px;font-size: 38px;padding-right: 16px;}
+    .sRatings .vRatings p {margin-bottom: 0;}
+    .sRatings .vRatings span {border-left: 1px solid #95989a;padding-right: 5px;}
+    .fDetailsPara {font-size: 20px;color: #fff;font-weight: 200;padding-top: 17px;}
+
+    /*.castCrew .castBox {border: 1px solid #76787a;min-height: 188px;position: relative;background-image: url(../assets/img/review/direc.png);background-repeat: no-repeat;width: 100%;}*/
+    .castCrew .castBox {border: 1px solid #76787a;background-image: url(../img/review/direc.png);background-repeat: no-repeat;background-size: cover;}
+
+    /*.castCrew .cBox-details {position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);text-align: center;color: #fff;width: 100%;}*/
+    /*.castCrew .cBox-details {top: 50%;left: 50%;transform: translate(-50%,-50%);text-align: center;color: #fff;width: 100%;}*/
+    .castCrew {margin-top: 40px;}
+    .castCrew .cBox-details {text-align: center;color: #fff;width: 100%;padding: 30px 0px;}
+    .castCrew .cBox-details h4 {margin-top: 0;font-size: 28px;}
+    .castCrew .cBox-details p {margin: 0;font-size: 18px;font-weight: 200;}
+    .castCrew .cBox-details img {width: 57px;margin-top: 30px;}
+
+    .whitel a {color: #fff;}
+    .whitel a:hover {color: #f1f1f1;}
+    .topR .vCard {width: 100%;}
+    .topR .vCard .vcardInfo2 {position: absolute;transform: translate(-50%,-50%);top: 28%;left: 50%;text-align: center;}
+    .topR .vCard .vcardInfo2 h5 {font-size: 18px;color: #fff;font-weight: 200;}
+    .topR .vCard .vcardInfo2 .fa {font-size: 46px;padding: 0px 10px;}
+    .topR .vCard .vCardInfo {bottom: 20px;padding: 0px 10px;color: #fff;}
+    .topR .vCard .vCardInfo h2 {font-size: 35px;font-weight: 400;}
+    .topR .vCard .vCardInfo p {font-size: 18px;font-weight: 200;margin-top: 18px;}
+    .topR .vCard .vCardInfo .stuName {font-size: 14px;}
+    .helpful {
+        position: absolute;
+        bottom: 32px;
+        right: 26px;
+        color: #fff;
+        text-decoration: underline;
+        font-size: 16px;
+        font-weight: 200;
+    }
+    .commReviews {padding: 60px 0px;}
+    .commReviews .vCard {width: 100%;margin-bottom: 24px;}
+    .commReviews .vCard .vcardInfo2 {position: absolute;transform: translate(-50%,-50%);top: 25%;left: 50%;text-align: center;width: 100%;}
+    .commReviews .vCard .vcardInfo2 h5 {font-size: 18px;color: #fff;font-weight: 200;}
+    .commReviews .vCard .vcardInfo2 .fa {font-size: 42px;padding: 0px 8px;}
+    .commReviews .vCard .vCardInfo {bottom: 20px;padding: 0px 10px;color: #fff;}
+    .commReviews .vCard .vCardInfo h2 {font-size: 35px;font-weight: 400;}
+    .commReviews .vCard .vCardInfo p {font-size: 15px;font-weight: 200;margin-top: 18px;}
+    .vcardInfo2 .rating-container .star {margin: 0;}
+    .artists .vcardInfo2 .rating-container .star {margin: 0 5px;}
+    .vcardInfo2 label {font-size: 18px; font-weight: 200;}
+    .vcardInfo2 .rating-md {text-align: center;}
+    .topReviews {margin-top: 50px;}
+
+
+    .box1 {background-image: url(../img/review/reviewbox.png);background-repeat: no-repeat;width: 100%;background-size: cover;}
+    .box2 {background-image: url(../img/review/reviewbox.png);background-repeat: no-repeat;width: 100%;background-size: cover;}
+
+    @media(max-width:1600px){
+        .castCrew .cBox-details h4 {font-size: 21px;}
+        .castCrew .cBox-details p {font-size: 16px;padding-bottom: 8px;}
+        .ftr-cast .p-films h5 {margin-bottom: 50px;}
+        .commReviews {padding: 30px 0px;}
+        .commReviews .vCard .vCardInfo {bottom: 10px;padding: 0px 5px;}
+        .commReviews .vCard .vcardInfo2 {top: 25%;}
+        .commReviews .vCard .vCardInfo p {margin-top: 15px;}
+        .topR .vCard .vcardInfo2 .fa {font-size: 40px;padding: 0px 8px;}
+        .brMore {margin-top: 30px;}
+    }
+    @media(max-width:1500px){
+        .commReviews .vCard .vcardInfo2 .fa {font-size: 38px;padding: 0px 5px;}
+        .commReviews .vCard .vcardInfo2 {top: 20%;}
+        .commReviews .vCard .vCardInfo h2 {font-size: 32px;}
+        .commReviews .vCard .vCardInfo p {margin-top: 9px;}
+        .commReviews .vCard .vCardImg {min-height: 350px;}
+        .topR .vCard .vCardInfo p {margin-top: 9px;font-size: 17px;}
+        .topR .vCard .vcardInfo2 {top: 19%;}
+        .topR .vCard .vCardInfo h2 {font-size: 32px;}
+        .castCrew .cBox-details h4 {font-size: 22px;}
+    }
+    @media(max-width:1400px){
+        .rBanner .playBtn {top: 32%;}
+        .filmDetails {padding: 30px 0px;}
+        .fDetailsPara {font-size: 18px;}
+        .filmDetails .likeBtns span {font-size: 20px;margin-top: 1px;}
+        .topR .vCard .vCardInfo p {font-size: 16px;margin-top: 12px;}
+        .topR .vCard .vCardInfo h2 {font-size: 30px;}
+        .topR .vCard .vcardInfo2 {top: 23%;}
+        .topR .vCard .vcardInfo2 .fa {font-size: 34px;padding: 0px 5px;}
+        .commReviews .vCard .vCardImg {min-height: 380px;}
+        .topR .vCard .vCardImg {min-height: 350px;}
+        .commReviews .vCard .vcardInfo2 .fa {font-size: 36px;padding: 0px 5px;}
+        .commReviews .vCard .vcardInfo2 {top: 22%;}
+        .commReviews .vCard .vCardInfo {padding: 0px 22px;left: 0px;}
+        .commReviews .vCard .vCardInfo h2 {font-size: 32px;}
+        .commReviews .vCard .vCardInfo p {margin-top: 12px;}
+        .commReviews .vCard .helpful {bottom: 20px;}
+        .castCrew .cBox-details h4 {font-size: 17px;}
+         .brMore {margin-top: 0px;}
+    }
+    @media(max-width:1200px){
+        .rBanner .playBtn {top: 24%;}
+        .rBanner .playBtn img {width: 65px;}
+        .filmDetails .headings h2 {font-size: 35px;}
+        .filmDetails .sRatings .vStars .fa {font-size: 32px;padding-right: 7px;}
+        .sRatings .vRatings {font-size: 17px;padding-left: 10px;}
+        .fDetailsPara {font-size: 16px;}
+        .ftr-cast .p-films h5 {margin-bottom: 40px;}
+        .castCrew .cBox-details h4 {font-size: 17px;}
+        .commReviews .vCard .vCardInfo h2 {font-size: 25px;}
+        .commReviews .vCard .vCardInfo p {margin-top: 8px;}
+        .commReviews .vCard .vCardInfo {padding: 0px 18px;}
+        .commReviews .vCard .vcardInfo2 h5 {font-size: 14px;margin-top: 5px;}
+        .commReviews .vCard .vcardInfo2 .fa {font-size: 28px;padding: 0px 3px;}
+        .commReviews .vCard .vcardInfo2 {top: 16%;}
+        .commReviews .vCard .vCardInfo .stuName {font-size: 14px;}
+        .helpful {font-size: 14px;}   
+    }
+    @media(max-width:1024px){
+        .castCrew .cBox-details h4 {font-size: 14px;}
+        .castCrew .cBox-details p {font-size: 14px;}
+        .topR .vCard .vCardInfo h2 {font-size: 26px;}
+        .topR .vCard .vCardInfo p {font-size: 15px;}
+    }
+    @media(max-width:991px){
+        .fDetailsPara {padding-right: 3%;}
+        .castCrew .castBox {margin-bottom: 30px;}
+        .castCrew .cBox-details h4 {font-size: 20px;}
+        .rBanner .playBtn {top: 26%;}
+        .rBanner .playBtn img {width: 55px;}
+        .topR .vCard .vcardInfo2 {top: 16%;}
+        .topR .vCard .vcardInfo2 .fa {font-size: 30px;padding: 0px 6px;}
+        .topR .vCard .vcardInfo2 h5 {font-size: 16px;margin-top: 5px;}
+        .topR .vCard .vCardInfo h2 {font-size: 22px;}
+        .topR .vCard .vCardInfo {bottom: 10px;padding: 0px 18px;left: 0px;}
+        .topR .vCard .vCardInfo p {font-size: 15px;margin-top: 8px;}
+        .commReviews .vCard .vcardInfo2 .fa {font-size: 30px;padding: 0px 6px;}
+        .topR .vCard .vcardInfo2 h5 {font-size: 14px;} 
+        .commReviews .vCard .vCardImg {min-height: 350px;}
+        .rHeader .menu {text-align: center;top: 80px;left: 0;right: 0;}
+        .hdr-bg .menu {text-align: center;top: 84px;left: 0;right: 0;}
+        .rHeader .menu .navbar-nav > li {margin: 0;float: none!important;}
+        .hdr-bg .menu .navbar-nav > li {margin: 0;float: none!important;}
+        .menu .navbar-nav {float: none!important;}
+        .rHeader .menu .nav > li > a {padding: 10px 7px;}
+        .hdr-bg .menu .nav > li > a {padding: 10px 7px;}
+        .rBanner {padding: 100px 0px 0px 0px;}
+        .hdr-bg .l0go1 {top: -18px;}
+        .hdr-bg {padding: 37px 0px;}
+        .castCrew .cBox-details p {font-size: 16px;}
+    }
+    @media(max-width:764px){
+        .rBanner img {min-height: 370px;}
+        .rBanner .playBtn {top: 27%;}
+        .rBanner .playBtn img {width: 60px;min-height: inherit;}
+        .rHeader {top: 46px;}
+        .hdr-bg {padding: 45px 0px;}
+        .hdr-bg .menu {top: 90px;}
+        .hdr-bg .l0go1 {top: -25px;}
+        .rBanner {padding: 0px;}
+        .hdr-bg .menu .nav > li > a {padding: 10px 4px;}
+        .filmDetails {text-align: center;}
+        .fDetailsPara {margin-top: 15px;}
+        .filmDetails .likeBtns {left: 45%;}
+        .ftr-cast {margin-top: 20px;}
+        
+        
+    }
+    @media(max-width:375px){
+        .artists .vCard .vCardInfo h2 {font-size: 25px;}
+    }
+    @media(max-width:320px){
+        .topR .vCard {min-height: 440px;}
+        .topR .vCard .vCardInfo {bottom: 30px;}
+        .helpful {bottom: 16px;left: 17px;}
+        .ftr-cast {padding: 13px 0;}
+        .commReviews .p-films h5 span {margin: 0 4px;}
+        .commReviews .vCard .vCardInfo {bottom: 22px;}
+        .commReviews .vCard .helpful {bottom: 10px;}
+        .commReviews .vCard .vCardImg {min-height: 420px;}
+        
+    }
+
+    /*<< REVIEW PAGE-STUDENT CSS >>*/
+
+    .reviewEditor .reviewBox {border: 1px solid #76787a;text-align: center;color: #fff;margin-top: 40px;}
+    .reviewEditor .reviewBox img {width: 100%;}
+    .reviewEditor .reviewBox .reviewInner {padding: 40px 55px;top: 0;}
+    .reviewEditor .reviewBox .reviewInner h3:first-child {margin-bottom: 20px;margin-top: 0;}
+    .f22 {font-size: 20px;font-weight: 200;margin-bottom: 35px;}
+    .sliderPoints p {text-align: left;margin-bottom: 32px;font-size: 20px;font-weight: 200;}
+    .reviewTitle1 {text-align: left;padding-left: 30px;}
+    .ltext {color: #95989a;font-size: 18px;font-weight: 300;}
+    .mt08 {margin-top: 16px;margin-bottom: 0;}
+    .lastRating .vStars {text-align: left;}
+    .lastRating .vStars .fa {font-size: 38px;color: #f7c25f;padding: 0px 11px;}
+    .pad125 {padding: 125px 0px;}
+    .editButton {text-align: right;bottom: 0;margin-top: 60px;}
+    .editButton .s-mit {color: #fff;border: 1px solid #fff;}
+    .editButton .s-mit:hover {color: #000;}
+
+
+    /*<< Data Slider CSS >>*/
+
+    *, *:before, *:after {
+      box-sizing: border-box;
+    }
+
+
+
+    .range-slider {
+      margin: 0 0 0 0%;
+    }
+
+    .range-slider {
+      width: 80%;
+    }
+
+    .range-slider__range {
+      -webkit-appearance: none;
+      width: calc(100% - (73px));
+      height: 1px;
+      border-radius: 5px;
+      background: #d7dcdf;
+      outline: none;
+      padding: 0;
+      margin: 0;
+        display: inline-block!important;
+    }
+    .range-slider__range::-webkit-slider-thumb {
+      -webkit-appearance: none;
+              appearance: none;
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      background: #fff;
+      sliderPoints
+      -webkit-transition: background .15s ease-in-out;
+      transition: background .15s ease-in-out;
+    }
+    .range-slider__range::-webkit-slider-thumb:hover {
+      background: #e6e6e6;
+    }
+    .range-slider__range:active::-webkit-slider-thumb {
+      background: #e6e6e6;
+    }
+    .range-slider__range::-moz-range-thumb {
+      width: 25px;
+      height: 25px;
+      border: 0;
+      border-radius: 50%;
+      background: #fff;
+      cursor: pointer;
+      -webkit-transition: background .15s ease-in-out;
+      transition: background .15s ease-in-out;
+    }
+    .range-slider__range::-moz-range-thumb:hover {
+      background: #e6e6e6;
+    }
+    .range-slider__range:active::-moz-range-thumb {
+      background: #e6e6e6;
+    }
+
+    .range-slider__value {
+      display: block;
+        position: absolute;
+        line-height: 20px;
+        text-align: center;
+        border-radius: 3px;
+        margin-left: 8px;
+        right: 44px;
+        top: 8px;
+        font-size: 18px;
+    }
+
+
+    ::-moz-range-track {
+      background: #d7dcdf;
+      border: 0;
+    }
+
+    input::-moz-focus-inner,
+    input::-moz-focus-outer {
+      border: 0;
+    }
+
+
+
+    @media(max-width:1500px){
+        .sliderPoints p {margin-bottom: 25px;}
+        .reviewEditor .reviewBox .reviewInner {padding: 40px 45px;}
+        .editButton {margin-top: 50px;}
+        .pad125 {padding: 80px 0px;}
+        #movieReview {padding-top: 80px;}
+        .rBanner .playBtn img {width: 100px;}
+        .range-slider__value {top: 3px;right: 33px;}  
+        .rating-md {font-size: 36px!important;}
+        .dropDown .col-sm-4:first-child .dropdown {min-width: 70%;}
+        .dropDown .dropdown {min-width: 70%;}
+        .dropDown .col-sm-4:last-child .dropdown {min-width: 70%;}
+        .sliderPoints p {font-size: 18px;}
+        
+    }
+    @media(max-width:1280px){
+        
+        .rating-md {font-size: 30px!important;}
+        .filmDetails .likeBtns a img {width: 20px;}
+        .rBanner .playBtn img {width: 80px;}
+    }
+    @media(max-width:1200px){
+        .range-slider {width: 90%;}
+        .range-slider__value {top: 3px;right: 5px;}
+        .sliderPoints p {font-size: 16px;}
+        .rating-md {font-size: 26px!important;}
+        .mt08 {margin-top: 10px;}
+        .reviewEditor .reviewBox .reviewInner h3:first-child {margin-bottom: 12px;font-size: 32px;}
+        .ltext {font-size: 16px;}
+        .dropDown .col-sm-4:first-child .dropdown {min-width: 70%;}
+        .dropDown .dropdown {max-width: 70%;} 
+        #movieReview .vCard {min-height: 260px;}
+        #movieReview .vCard .vCardInfo p {font-size: 14px;}
+        .f22 {font-size: 18px;font-weight: 300;}
+    }
+    @media(max-width:991px){
+        .fDetailsPara {padding-top: 6px;}
+        .filmDetails .headings h2 {font-size: 30px;}
+        .filmDetails .likeBtns a img {width: 18px;}
+        .reviewEditor .reviewBox .reviewInner h3:first-child {font-size: 30px;}
+        .f22 {font-size: 16px;}
+        .sliderPoints p {font-size: 18px;margin-bottom: 23px;}
+        .reviewTitle1 {padding: 0px;text-align: center;margin-top: 20px;}
+        .editButton {text-align: center;margin-top: 20px;}
+        .pad125 {padding: 40px 0px;}
+        #movieReview {padding-top: 50px;}
+        .dropDown .dropdown {max-width: 80%;}
+        .dropDown .col-sm-4:first-child .dropdown {min-width: 80%;}
+        .range-slider__value {right: 22px;}
+        .range-slider__range::-webkit-slider-thumb {width: 18px;height: 18px;}
+        .range-slider__range::-moz-range-thumb {width: 18px;height: 18px;}  
+        .rating-md {margin-top: 5px;}
+    }
+    @media(max-width:764px){
+        #movieReview .vCard .vCardInfo h2 {    font-size: 24px;}
+        #movieReview .vCard .vCardInfo p {font-size: 16px;}
+        #movieReview .vCard .timer {font-size: 16px;}
+        
+    }
+
+    /*STUDENTS NOT REVIEWED CSS*/
+
+    .reviewInput input {width: 100%;min-height: 53px;padding: 10px;font-size: 20px;font-weight: 400;color: #95989a;}
+    .reviewInput #charNum {position: absolute;color: #95989a;right: 35px;bottom: 115px;font-size: 14px;font-weight: 400;}
+    .reviewTitle1 .reviewEditbtn {margin-top: 30px;}
+    .reviewInput textarea {width: 100%;min-height: 53px;padding: 10px;font-size: 20px;font-weight: 400;color: #95989a;min-height: 300px;margin-top: 30px;}
+
+
+
+    /*Community Review REVIEWED CSS*/
+
+    .commReviews .dropDown {float: right;width: 10%;margin-bottom: 40px;}
+    .commReviews .dropDown .dropdown {max-width: 100%;}
+    .commReviews .p-films h5 {margin-bottom: 10px;}
+    .commReviews .empty-stars {color: #fff;}
+    .commReviews .filled-stars {color: #ffc520;}
+
+
+    /*THEATER PUBLIC & STUDENTS CSS*/
+
+
+
+    .featuredFilm {color: #fff;}
+    .featuredFilm .vcardInfo2 .rating-md {text-align: left;display: inline-block;font-size: 36px;}
+    /*.featuredFilm .ffilm .col-md-6 {padding: 0px;}*/
+    .featuredFilm .ffilmOuter {position: relative;}
+    .featuredFilm .ffilmOuter img {width: 100%;}
+    .featuredFilm .side-capture img {width: 100%;}
+    .ffilmOuter .ffilmInner {padding: 56px 60px;position: absolute;top: 0;left: 0;}
+    .ffilmOuter .ffilmInner .ffilmDetails {text-align: left; margin-top: 150px;}
+    .ffilmOuter .ffilmInner .ffilmDetails .vcardInfo2 {margin-bottom: 15px;}
+    .ffilmOuter .ffilmInner .ffilmDetails .vcardInfo2 .rating-container .star {margin: 0 5px;}
+    .ffilmOuter .ffilmInner .ffilmDetails .vcardInfo2 label {font-size: 16px; color: #95989a;padding-left: 20px;font-weight: 400;}
+    .ffilmOuter .ffilmInner .ffilmDetails h3 {margin-top: 0px;}
+    .ffilmOuter .ffilmInner .ffilmDetails p {font-size: 20px; font-weight: 200;}
+    .tac {text-align: center;margin-bottom: 80px;}
+    .hottestFilm {background-color: darkgray;position: relative;margin: 10px 0px;}
+
+    /* 2017/07/17 */
+    
+    .hottestFilm .playOverlay {width: 100%;height:100%;position: absolute;top: 0;left: 0;background-color: rgba(51, 51, 51, 0.25);}
+    
+    /* 2017/07/17 */
+
+
+    .hottestFilm .playBtn {position: absolute;transform: translate(-50%,-50%);top: 50%;left: 50%;}
+    .hottestFilm .playBtn img {width: 130px;}
+    .slideinner3 .vCard {max-height: 360px; min-height: 360px;}
+    .slideinner3 .vCard .vcardInfo2 {position: absolute;transform: translate(-50%,-50%);top: 25%;left: 50%;text-align: center;width: 100%;}
+    .slideinner3 .vCard .vcardInfo2 .rating-container .star {margin: 0 5px;}
+    .slideinner3 .vCard .timer {position: absolute;top: 5px;right: 10px;font-size: 18px;color: #fff;font-weight: 200;}
+    .slideinner3 .vCard .vCardInfo h2 {font-size: 35px;text-transform: uppercase;margin-bottom: 14px;}.slideinner3 .vCard .vCardInfo p {font-size:15px;color: #ececec;margin-bottom: 0;}
+    .filmsSlide {position: relative;top: -100px;}
+    .stucomm {margin-top: -100px;}
+    .stucomm22 {margin-top: -60px;}
+    .stucomm .vCard .timer {position: absolute;top: 5px;right: 10px;font-size: 18px;color: #fff;font-weight: 200;}
+    .topR {margin-top: 40PX;}
+
+
+    @media(max-width:1500px){
+        .reviewInput input {min-height: 47px;font-size: 18px;}
+        .reviewInput textarea {min-height: 210px;font-size: 18px;}
+    /*    .reviewEditor .box2 {min-height: 650px;}*/
+        .commReviews .dropDown {width: 15%}
+        .filmsSlide .slideinner3 .vCard {min-height: 320px; max-height: 320px;}
+        .ffilmOuter .ffilmInner {padding: 38px 60px;}
+        .ffilmOuter .ffilmInner {padding: 32px 60px;}
+        .tac {margin-bottom: 57px;font-size: 32px;}
+        .ffilmOuter .ffilmInner .ffilmDetails {margin-top: 0px;}
+        .ffilmOuter .ffilmInner .ffilmDetails p {font-size: 18px;}
+        .ffilmOuter .ffilmInner .ffilmDetails h3 {font-size: 32px;}
+        .ffilmOuter .ffilmInner .ffilmDetails .vcardInfo2 {margin-bottom: 10px;}
+    }
+    @media(max-width:1280px){
+        .ffilmOuter .ffilmInner .ffilmDetails p {font-size: 16px;}
+        .slideinner3 .vCard .vcardInfo2 {top: 23%;}
+        .slideinner3 .vCard .vCardInfo h2 {font-size: 30px;margin-bottom: 10px;}
+        .ffilmOuter .ffilmInner {padding: 21px 60px;}
+    }
+    @media(max-width:1200px){
+        .reviewInput textarea {min-height: 150px;font-size: 16px;margin-top: 20px;}
+        .reviewInput #charNum {bottom: 95px;}
+        .reviewInput input {font-size: 16px;}
+        .rangeslider__handle {width: 20px!important;height: 20px!important;}
+    /*    .reviewEditor .box2 {min-height: 550px;}*/
+        .ffilmOuter .ffilmInner {padding: 0px 60px;}
+        .tac {margin-bottom: 20px;font-size: 32px;}
+        .ffilmOuter .ffilmInner .ffilmDetails {margin-top: 0px;}
+        .vCard .vCardInfo {bottom: 19px;}
+        .slideinner3 .vCard .vCardInfo h2 {font-size: 28px;}
+        .slideinner3 .vCard .vCardInfo p {font-size: 14px;}
+        .slideinner3 .vCard .timer {font-size: 17px;}
+        .stucomm .commReviews .vCard .vCardImg {min-height: 325px;}
+        .stucomm .commReviews .vCard .vcardInfo2 {top: 25%;}
+        
+    }
+    @media(max-width:991px){
+    /*    .reviewEditor .box2 {min-height: 920px;}*/
+        .reviewInput {margin-top: 30px;}
+        .rBanner .playBtn img {width: 50px;}
+        .reviewTitle1 .reviewEditbtn {text-align: left;}
+        #movieReview .vCard {min-height: 240px;}
+        .tac {    margin-bottom: 120px;}
+        .ffilmOuter .ffilmInner {padding: 40px 60px;}
+        .topReviews .helpful {bottom: 21px;}
+        .uploadFilms .p-films h5 {font-size: 30px;}
+        
+    }
+    @media(max-width:764px){
+        .l0go1 {text-align: center;}
+        .reviewEditor {padding-top: 50px}
+        .filmDetails .headings h2 {text-align: center;}
+        .fDetailsPara {text-align: center;}
+        .filmDetails .likeBtns {right: 0;transform:translate(-50%,-50%);top: 50%;left: 53%;}
+        .reviewEditor .reviewBox .reviewInner {padding: 32px;}
+        .sliderPoints p {margin-bottom: 10px;}
+        .range-slider {margin-bottom: 30px;}
+        .dropDown .col-sm-4:first-child .dropdown {float: none;min-width: 100%;}
+        .dropDown .dropdown {min-width: 100%;margin-bottom: 20px;}
+        .dropDown .col-sm-4:last-child .dropdown {min-width: 100%;float: none;}
+        .reviewTitle1 .s-mit {min-width: 100%;}
+        .commReviews .dropDown {margin-bottom: 20px;margin-top: 20px;width: 100%;}
+        .theaterRev {padding-top: 0;}
+        .tac {margin-bottom: 20px;}
+        .ffilmOuter .ffilmInner {padding: 15px 35px;}
+        .featuredFilm .vcardInfo2 .rating-md {margin-top: 0px;font-size: 22px!important;}
+        .ffilmOuter .ffilmInner .ffilmDetails h3 {font-size: 26px;margin-bottom: 0px;}
+        .ffilmOuter .ffilmInner .ffilmDetails .vcardInfo2 label {padding-left: 0px;display: block; font-size: 14px;}
+        .ffilmOuter .ffilmInner .ffilmDetails p {font-size: 14px;}
+        .featuredFilm .ffilmOuter {min-height: 380px;}
+        .hottestFilm .playBtn img {width: 60px;}
+        .slideinner3 .vcardInfo2 .rating-md {font-size: 22px!important;margin-top: 0px;}
+        .filmsSlide {top: -110px;}
+        .slideinner3 .vCard .vCardInfo h2 {font-size: 26px;margin-bottom: 4px;}
+        .stucomm .commReviews .vCard .vCardImg {min-height: 300px;}
+        .ffilmOuter .ffilmInner .ffilmDetails {text-align: center;}
+        .uploadFilms .p-films h5 {font-size: 22px;}
+        
+        
+        
+    /*    .reviewEditor .box2 {min-height: 1270px;}*/
+        .fDetailsPara {padding-right: 0px;}
+    }
+    @media(max-width:480px){
+        #movieReview .vCard {min-height: 270px;}
+        #movieReview .vCard .vCardInfo h2 {margin-bottom: 12px;}
+        .brMore .dropdown button {font-size: 22px;}
+    }
+    @media(max-width:375px){
+        .reviewEditor .box2 {min-height: 1320px;}
+        
+        .rHeader .menu .nav > li > a {padding: 10px 4px;}
+        .rBanner .playBtn {top: 28%;}
+        .artists .vCard {margin: 0;}
+        .tac {font-size: 26px;}
+        
+    }
+    @media(max-width:320px){
+        .filmDetails .likeBtns {left: 48%;}
+        .reviewEditor .reviewBox .reviewInner h3:first-child {font-size: 28px;}
+        .range-slider input {width: 90%;}
+        .reviewEditor .reviewBox .reviewInner {padding: 25px;}
+        #movieReview .vCard .vCardInfo p {font-size: 15px;}
+        #movieReview .vCard {min-height: 280px;}
+        .reviewEditor .container-fluid {padding: 0px 20px;}
+        .uploading .s-mit {min-width: 100%;}
+        .hdr-bg .menu .nav > li > a {padding: 0px 4px;}
+        .rBanner .playBtn {top: 30%;}
+        .stucomm .commReviews .vCard .vCardImg {min-height: 320px;}
+        .commReviews .vCard .vCardInfo {bottom: 5px;}
+       
+        
+        
+    /*    .reviewEditor .box2 {min-height: 1300px;}*/
+    }
+
+
+    .up-down .dropdown .btn {
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .inputfile + label p {
+        padding: 14px 10px;
+    }
+    
+}
+@media(max-width:764px){
+    .up-film {padding: 20px 20px;}
+    .up-film h3 {font-size: 22px;}
+    .movie_name {margin-top: 22px;}
+    .artists .vCard {width: 100%;margin: 0px 7px 20px 7px;}
+    .artists .vCard .vCardInfo h2 {font-size: 28px;margin-bottom: 5px;}
+    .artists .vCard .vCardInfo p {font-size: 16px;}
+    .artists .vCard .vcardInfo2 .fa {font-size: 30px;}
+    .up-down .genre {position: relative;margin-top: 18px;right: 0px;}
+    .up-film .up-down .dropdown {width: 100%;}
+    .menu .navbar-nav {margin: 0;}
+    
+}
+
+
+/*<< REVIEW PAGE CSS >>*/
+
+.rHeader { z-index: 99; background-color: #000;position: absolute;top: 60px;left: 50%;transform: translate(-50%,-50%);width: 100%;}
+.rHeader .menu {position: absolute;top: 20px;right: 40px;font-size: 20px;color: #fff!important;font-weight: 400;}
+
+    /* 2017/07/17 */
+    
+    .rBanner .playOverlay {width: 100%;height:100%;position: absolute;top: 0;left: 0;background-color: rgba(51, 51, 51, 0.25);}
+    
+    /* 2017/07/17 */
+
+.rBanner img {width: 100%;position: relative;}
+.rBanner .playBtn {position: absolute;transform: translate(-50%,-50%);top: 36%;left: 50%;}
+.rBanner .playBtn img {width: 127px;}
+.filmDetails {padding: 50px 0px;}
+.filmDetails .likeBtns {margin-top: 20px;  }
+.filmDetails .likeBtns2 {
+    right: -35px;
+}
+.filmDetails .likeBtns a img {width: 25px;}
+.filmDetails .likeBtns span {color: #95989a;font-size: 22px;position: absolute;margin-left: 7px;margin-top: 3px;font-weight: 400;}
+.filmDetails .likeBtns .superlike {margin-left: 62px;}
+.filmDetails .likeBtns .superlike2 {margin-left: 102px; }
+.sRatings .vStars {display: inline-block;}
+.sRatings .rating-container {display: inline-block;}
+.sRatings .vRatings {display: inline-block;font-size: 20px;color: #95989a;font-weight: 200;padding-left: 20px;}
+.sRatings .vStars .fa {color: #ffc520!important;font-size: 22px;font-size: 38px;padding-right: 16px;}
+.sRatings .vRatings p {margin-bottom: 0;}
+.sRatings .vRatings span {border-left: 1px solid #95989a;padding-right: 5px;}
+.fDetailsPara {font-size: 20px;color: #fff;font-weight: 200;padding-top: 17px;}
+
+/*.castCrew .castBox {border: 1px solid #76787a;min-height: 188px;position: relative;background-image: url(../assets/img/review/direc.png);background-repeat: no-repeat;width: 100%;}*/
+.castCrew .castBox {border: 1px solid #76787a;background-image: url(../img/direc.png);background-repeat: no-repeat;background-size: cover;}
+
+/*.castCrew .cBox-details {position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);text-align: center;color: #fff;width: 100%;}*/
+/*.castCrew .cBox-details {top: 50%;left: 50%;transform: translate(-50%,-50%);text-align: center;color: #fff;width: 100%;}*/
+.castCrew {margin-top: 40px;}
+.castCrew .cBox-details {text-align: center;color: #fff;width: 100%;padding: 30px 0px;}
+.castCrew .cBox-details h4 {margin-top: 0;font-size: 28px;}
+.castCrew .cBox-details p {margin: 0;font-size: 18px;font-weight: 200;}
+.castCrew .cBox-details img {width: 57px;margin-top: 30px;}
+
+.whitel a {color: #fff;}
+.whitel { overflow-x: hidden; } 
+.whitel a:hover {color: #f1f1f1;}
+.topR .vCard {width: 100%;}
+.topR .vCard .vcardInfo2 {position: absolute;transform: translate(-50%,-50%);top: 28%;left: 50%;text-align: center;}
+.topR .vCard .vcardInfo2 h5 {font-size: 18px;color: #fff;font-weight: 200;}
+.topR .vCard .vcardInfo2 .fa {font-size: 46px;padding: 0px 10px;}
+.topR .vCard .vCardInfo {bottom: 20px;padding: 0px 10px;color: #fff;}
+.topR .vCard .vCardInfo h2 {font-size: 35px;font-weight: 400;}
+.topR .vCard .vCardInfo p {font-size: 18px;font-weight: 200;margin-top: 18px;}
+.topR .vCard .vCardInfo .stuName {font-size: 14px;}
+.helpful {
+    position: absolute;
+    bottom: 32px;
+    right: 26px;
+    color: #fff;
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 200;
+    z-index: 9999;
+}
+.commReviews {padding: 60px 0px;}
+.commReviews .vCard {width: 100%;margin-bottom: 24px;}
+.commReviews .vCard .vcardInfo2 {position: absolute;transform: translate(-50%,-50%);top: 25%;left: 50%;text-align: center;width: 100%;}
+.commReviews .vCard .vcardInfo2 h5 {font-size: 18px;color: #fff;font-weight: 200;}
+.commReviews .vCard .vcardInfo2 .fa {font-size: 42px;padding: 0px 8px;}
+.commReviews .vCard .vCardInfo {bottom: 20px;padding: 0px 10px;color: #fff;}
+.commReviews .vCard .vCardInfo h2 {font-size: 35px;font-weight: 400;}
+.commReviews .vCard .vCardInfo p {font-size: 15px;font-weight: 200;margin-top: 18px;}
+.vcardInfo2 .rating-container .star {margin: 0;}
+.artists .vcardInfo2 .rating-container .star {margin: 0 5px;}
+.vcardInfo2 label {font-size: 18px; font-weight: 200;}
+.vcardInfo2 .rating-md {text-align: center;}
+.topReviews {margin-top: 50px;}
+
+
+.box1 {background-image: url(../img/reviewbox.png);background-repeat: no-repeat;width: 100%;background-size: cover;}
+.box2 {background-image: url(../img/reviewbox.png);background-repeat: no-repeat;width: 100%;background-size: cover;}
+
+@media(max-width:1600px){
+    .castCrew .cBox-details h4 {font-size: 21px;}
+    .castCrew .cBox-details p {font-size: 16px;padding-bottom: 8px;}
+    .ftr-cast .p-films h5 {margin-bottom: 50px;}
+    .commReviews {padding: 30px 0px;}
+    .commReviews .vCard .vCardInfo {bottom: 10px;padding: 0px 5px;}
+    .commReviews .vCard .vcardInfo2 {top: 25%;}
+    .commReviews .vCard .vCardInfo p {margin-top: 15px;}
+    .topR .vCard .vcardInfo2 .fa {font-size: 40px;padding: 0px 8px;}
+}
+@media(max-width:1500px){
+    .commReviews .vCard .vcardInfo2 .fa {font-size: 38px;padding: 0px 5px;}
+    .commReviews .vCard .vcardInfo2 {top: 20%;}
+    .commReviews .vCard .vCardInfo h2 {font-size: 32px;}
+    .commReviews .vCard .vCardInfo p {margin-top: 9px;}
+    .commReviews .vCard .vCardImg {min-height: 350px;}
+    .topR .vCard .vCardInfo p {margin-top: 9px;font-size: 17px;}
+    .topR .vCard .vcardInfo2 {top: 19%;}
+    .topR .vCard .vCardInfo h2 {font-size: 32px;}
+    .castCrew .cBox-details h4 {font-size: 22px;}
+}
+@media(max-width:1400px){
+    .rBanner .playBtn {top: 32%;}
+    .filmDetails {padding: 30px 0px;}
+    .fDetailsPara {font-size: 18px;}
+    .filmDetails .likeBtns span {font-size: 20px;margin-top: 1px;}
+    .topR .vCard .vCardInfo p {font-size: 16px;margin-top: 12px;}
+    .topR .vCard .vCardInfo h2 {font-size: 30px;}
+    .topR .vCard .vcardInfo2 {top: 23%;}
+    .topR .vCard .vcardInfo2 .fa {font-size: 34px;padding: 0px 5px;}
+    .commReviews .vCard .vCardImg {min-height: 380px;}
+    .topR .vCard .vCardImg {min-height: 350px;}
+    .commReviews .vCard .vcardInfo2 .fa {font-size: 36px;padding: 0px 5px;}
+    .commReviews .vCard .vcardInfo2 {top: 22%;}
+    .commReviews .vCard .vCardInfo {padding: 0px 22px;left: 0px;}
+    .commReviews .vCard .vCardInfo h2 {font-size: 32px;}
+    .commReviews .vCard .vCardInfo p {margin-top: 12px;}
+    .commReviews .vCard .helpful {bottom: 20px;}
+    .castCrew .cBox-details h4 {font-size: 15px;}
+}
+@media(max-width: 1366px){
+    .rBanner .playBtn {top: 48%;}
+}
+@media(max-width:1200px){
+    .rBanner .playBtn {top: 24%;}
+    .rBanner .playBtn img {width: 65px;}
+    .filmDetails .headings h2 {font-size: 35px;}
+    .filmDetails .sRatings .vStars .fa {font-size: 32px;padding-right: 7px;}
+    .sRatings .vRatings {font-size: 17px;padding-left: 10px;}
+    .fDetailsPara {font-size: 16px;}
+    .ftr-cast .p-films h5 {margin-bottom: 40px;}
+    .castCrew .cBox-details h4 {font-size: 17px;}
+    .commReviews .vCard .vCardInfo h2 {font-size: 25px;}
+    .commReviews .vCard .vCardInfo p {margin-top: 8px;}
+    .commReviews .vCard .vCardInfo {padding: 0px 18px;}
+    .commReviews .vCard .vcardInfo2 h5 {font-size: 14px;margin-top: 5px;}
+    .commReviews .vCard .vcardInfo2 .fa {font-size: 28px;padding: 0px 3px;}
+    .commReviews .vCard .vcardInfo2 {top: 16%;}
+    .commReviews .vCard .vCardInfo .stuName {font-size: 14px;}
+    .helpful {font-size: 14px;}   
+}
+@media(max-width:1024px){
+    .castCrew .cBox-details h4 {font-size: 14px;}
+    .castCrew .cBox-details p {font-size: 14px;}
+    .topR .vCard .vCardInfo h2 {font-size: 26px;}
+    .topR .vCard .vCardInfo p {font-size: 15px;}
+}
+@media(max-width:991px){
+    .fDetailsPara {padding-right: 3%;}
+    .castCrew .castBox {margin-bottom: 30px;}
+    .castCrew .cBox-details h4 {font-size: 20px;}
+    .rBanner .playBtn {top: 26%;}
+    .rBanner .playBtn img {width: 55px;}
+    .topR .vCard .vcardInfo2 {top: 16%;}
+    .topR .vCard .vcardInfo2 .fa {font-size: 30px;padding: 0px 6px;}
+    .topR .vCard .vcardInfo2 h5 {font-size: 16px;margin-top: 5px;}
+    .topR .vCard .vCardInfo h2 {font-size: 22px;}
+    .topR .vCard .vCardInfo {bottom: 10px;padding: 0px 18px;left: 0px;}
+    .topR .vCard .vCardInfo p {font-size: 15px;margin-top: 8px;}
+    .commReviews .vCard .vcardInfo2 .fa {font-size: 30px;padding: 0px 6px;}
+    .topR .vCard .vcardInfo2 h5 {font-size: 14px;} 
+    .commReviews .vCard .vCardImg {min-height: 350px;}
+    .rHeader .menu {text-align: center;top: 80px;left: 0;right: 0;}
+    .hdr-bg .menu {text-align: center;top: 84px;left: 0;right: 0;}
+    .rHeader .menu .navbar-nav > li {margin: 0;float: none!important;}
+    .hdr-bg .menu .navbar-nav > li {margin: 0;float: none!important;}
+    .menu .navbar-nav {float: none!important;}
+    .rHeader .menu .nav > li > a {padding: 10px 7px;}
+    .hdr-bg .menu .nav > li > a {padding: 10px 7px;}
+    .rBanner {padding: 100px 0px 0px 0px;}
+    .hdr-bg .l0go1 {top: -18px;}
+    .hdr-bg {padding: 37px 0px;}
+    .castCrew .cBox-details p {font-size: 16px;}
+}
+@media(max-width:764px){
+    .rBanner img {min-height: 370px;}
+    .rBanner .playBtn {top: 27%;}
+    .rBanner .playBtn img {width: 60px;min-height: inherit;}
+    .rHeader {top: 46px;}
+    .hdr-bg {padding: 45px 0px;}
+    .hdr-bg .menu {top: 90px;}
+    .hdr-bg .l0go1 {top: -25px;}
+    .rBanner {padding: 0px;}
+    .hdr-bg .menu .nav > li > a {padding: 10px 4px;}
+    .filmDetails {text-align: center;}
+    .fDetailsPara {margin-top: 15px;}
+    .filmDetails .likeBtns {left: 45%;}
+    .ftr-cast {margin-top: 20px;}
+    
+    
+}
+@media(max-width:375px){
+    .artists .vCard .vCardInfo h2 {font-size: 25px;}
+}
+@media(max-width:320px){
+    .topR .vCard {min-height: 440px;}
+    .topR .vCard .vCardInfo {bottom: 30px;}
+    .helpful {bottom: 16px;left: 17px;}
+    .ftr-cast {padding: 13px 0;}
+    .commReviews .p-films h5 span {margin: 0 4px;}
+    .commReviews .vCard .vCardInfo {bottom: 22px;}
+    .commReviews .vCard .helpful {bottom: 10px;}
+    .commReviews .vCard .vCardImg {min-height: 420px;}
+    
+}
+
+/*<< REVIEW PAGE-STUDENT CSS >>*/
+
+.reviewEditor .reviewBox {border: 1px solid #76787a;text-align: center;color: #fff;margin-top: 40px;}
+.reviewEditor .reviewBox img {width: 100%;}
+.reviewEditor .reviewBox .reviewInner {padding: 40px 55px;top: 0;}
+.reviewEditor .reviewBox .reviewInner h3:first-child {margin-bottom: 20px;margin-top: 0;}
+.f22 {font-size: 20px;font-weight: 200;margin-bottom: 35px;}
+.sliderPoints p {text-align: left;margin-bottom: 32px;font-size: 20px;font-weight: 200;}
+.reviewTitle1 {text-align: left;padding-left: 30px;}
+.ltext {color: #95989a;font-size: 18px;font-weight: 300;}
+.mt08 {margin-top: 16px;margin-bottom: 0;}
+.lastRating .vStars {text-align: left;}
+.lastRating .vStars .fa {font-size: 38px;color: #f7c25f;padding: 0px 11px;}
+.pad125 {padding: 125px 0px;}
+.editButton {text-align: right;bottom: 0;margin-top: 60px;}
+.editButton .s-mit {color: #fff;border: 1px solid #fff;}
+.editButton .s-mit:hover {color: #000;}
+
+
+/*<< Data Slider CSS >>*/
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+
+
+.range-slider {
+  margin: 0 0 0 0%;
+}
+
+.range-slider {
+  width: 80%;
+}
+
+.range-slider__range {
+  -webkit-appearance: none;
+  width: calc(100% - (73px));
+  height: 1px;
+  border-radius: 5px;
+  background: #d7dcdf;
+  outline: none;
+  padding: 0;
+  margin: 0;
+    display: inline-block!important;
+}
+.range-slider__range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+          appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #fff;
+  sliderPoints
+  -webkit-transition: background .15s ease-in-out;
+  transition: background .15s ease-in-out;
+}
+.range-slider__range::-webkit-slider-thumb:hover {
+  background: #e6e6e6;
+}
+.range-slider__range:active::-webkit-slider-thumb {
+  background: #e6e6e6;
+}
+.range-slider__range::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border: 0;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+  -webkit-transition: background .15s ease-in-out;
+  transition: background .15s ease-in-out;
+}
+.range-slider__range::-moz-range-thumb:hover {
+  background: #e6e6e6;
+}
+.range-slider__range:active::-moz-range-thumb {
+  background: #e6e6e6;
+}
+
+.range-slider__value {
+  display: block;
+    position: absolute;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 3px;
+    margin-left: 8px;
+    right: 44px;
+    top: 8px;
+    font-size: 18px;
+}
+
+
+::-moz-range-track {
+  background: #d7dcdf;
+  border: 0;
+}
+
+input::-moz-focus-inner,
+input::-moz-focus-outer {
+  border: 0;
+}
+
+
+
+@media(max-width:1500px){
+    .sliderPoints p {margin-bottom: 25px;}
+    .reviewEditor .reviewBox .reviewInner {padding: 40px 45px;}
+    .editButton {margin-top: 50px;}
+    .pad125 {padding: 80px 0px;}
+    #movieReview {padding-top: 40px;}
+    .rBanner .playBtn img {width: 100px;}
+    .range-slider__value {top: 3px;right: 33px;}  
+    .rating-md {font-size: 36px!important;}
+    .dropDown .col-sm-4:first-child .dropdown {min-width: 70%;}
+    .dropDown .dropdown {min-width: 70%;}
+    .dropDown .col-sm-4:last-child .dropdown {min-width: 70%;}
+    .sliderPoints p {font-size: 18px;}
+    
+}
+@media(max-width:1280px){
+    
+    .rating-md {font-size: 30px!important;}
+    .filmDetails .likeBtns a img {width: 20px;}
+    .rBanner .playBtn img {width: 80px;}
+}
+@media(max-width:1200px){
+    .range-slider {width: 90%;}
+    .range-slider__value {top: 3px;right: 5px;}
+    .sliderPoints p {font-size: 16px;}
+    .rating-md {font-size: 26px!important;}
+    .mt08 {margin-top: 10px;}
+    .reviewEditor .reviewBox .reviewInner h3:first-child {margin-bottom: 12px;font-size: 32px;}
+    .ltext {font-size: 16px;}
+    .dropDown .col-sm-4:first-child .dropdown {min-width: 70%;}
+    .dropDown .dropdown {max-width: 70%;} 
+    #movieReview .vCard {min-height: 260px;}
+    #movieReview .vCard .vCardInfo p {font-size: 14px;}
+    .f22 {font-size: 18px;font-weight: 300;}
+}
+@media(max-width:991px){
+    .fDetailsPara {padding-top: 6px;}
+    .filmDetails .headings h2 {font-size: 30px;}
+    .filmDetails .likeBtns a img {width: 18px;}
+    .reviewEditor .reviewBox .reviewInner h3:first-child {font-size: 30px;}
+    .f22 {font-size: 16px;}
+    .sliderPoints p {font-size: 18px;margin-bottom: 23px;}
+    .reviewTitle1 {padding: 0px;text-align: center;margin-top: 20px;}
+    .editButton {text-align: center;margin-top: 20px;}
+    .pad125 {padding: 40px 0px;}
+    #movieReview {padding-top: 50px;}
+    .dropDown .dropdown {max-width: 80%;}
+    .dropDown .col-sm-4:first-child .dropdown {min-width: 80%;}
+    .range-slider__value {right: 22px;}
+    .range-slider__range::-webkit-slider-thumb {width: 18px;height: 18px;}
+    .range-slider__range::-moz-range-thumb {width: 18px;height: 18px;}  
+    .rating-md {margin-top: 5px;}
+}
+@media(max-width:764px){
+    #movieReview .vCard .vCardInfo h2 {    font-size: 24px;}
+    #movieReview .vCard .vCardInfo p {font-size: 16px;}
+    #movieReview .vCard .timer {font-size: 16px;}
+    
+}
+
+/*STUDENTS NOT REVIEWED CSS*/
+
+.reviewInput input {width: 100%;min-height: 53px;padding: 10px;font-size: 20px;font-weight: 400;color: #95989a;}
+.reviewInput #charNum {position: absolute;color: #95989a;right: 35px;bottom: 115px;font-size: 14px;font-weight: 400;}
+.reviewTitle1 .reviewEditbtn {margin-top: 30px;}
+.reviewInput textarea {width: 100%;min-height: 53px;padding: 10px;font-size: 20px;font-weight: 400;color: #95989a;min-height: 300px;margin-top: 30px;}
+
+
+
+/*Community Review REVIEWED CSS*/
+
+.commReviews .dropDown {float: right;width: 10%;margin-bottom: 40px;}
+.commReviews .dropDown .dropdown {max-width: 100%;}
+.commReviews .p-films h5 {margin-bottom: 10px;}
+.commReviews .empty-stars {color: #fff;}
+.commReviews .filled-stars {color: #ffc520;}
+
+
+/*THEATER PUBLIC & STUDENTS CSS*/
+
+
+
+.featuredFilm {color: #fff;}
+.featuredFilm .vcardInfo2 .rating-md {text-align: left;display: inline-block;font-size: 36px;}
+/*.featuredFilm .ffilm .col-md-6 {padding: 0px;}*/
+.featuredFilm .ffilmOuter {position: relative;}
+.featuredFilm .ffilm .col-md-6{
+    padding: 0px;
+}
+
+.featuredFilm .ffilmOuter img {width: 100%;}
+.featuredFilm .side-capture img {width: 100%;}
+.ffilmOuter .ffilmInner {padding: 56px 60px;position: absolute;top: 0;left: 0;}
+.ffilmOuter .ffilmInner .ffilmDetails {text-align: left; margin-top: 150px;}
+.ffilmOuter .ffilmInner .ffilmDetails .vcardInfo2 {margin-bottom: 15px;}
+.ffilmOuter .ffilmInner .ffilmDetails .vcardInfo2 .rating-container .star {margin: 0 5px;}
+.ffilmOuter .ffilmInner .ffilmDetails .vcardInfo2 label {font-size: 16px; color: #95989a;padding-left: 20px;font-weight: 400;}
+.ffilmOuter .ffilmInner .ffilmDetails h3 {margin-top: 0px;}
+.ffilmOuter .ffilmInner .ffilmDetails p {font-size: 20px; font-weight: 200;}
+.tac {text-align: center;margin-bottom: 80px;}
+.hottestFilm {background-color: darkgray;position: relative;}
+.hottestFilm .playBtn {position: absolute;transform: translate(-50%,-50%);top: 50%;left: 50%;}
+.hottestFilm .playBtn img {width: 130px;}
+.slideinner3 .vCard .vcardInfo2 {position: absolute;transform: translate(-50%,-50%);top: 25%;left: 50%;text-align: center;width: 100%;}
+.slideinner3 .vCard .vcardInfo2 .rating-container .star {margin: 0 5px;}
+.slideinner3 .vCard .timer {position: absolute;top: 5px;right: 10px;font-size: 18px;color: #fff;font-weight: 200;}
+.slideinner3 .vCard .vCardInfo h2 {font-size: 35px;text-transform: uppercase;margin-bottom: 14px;}.slideinner3 .vCard .vCardInfo p {font-size:15px;color: #ececec;margin-bottom: 0;}
+.filmsSlide {position: relative;top: -100px;}
+.stucomm {margin-top: -100px;}
+.stucomm .vCard .timer {position: absolute;top: 5px;right: 10px;font-size: 18px;color: #fff;font-weight: 200;}
+.suggestion{position: absolute;     margin-left: 43px; background-color: #333333; color: ##f5f5f5; width: 76%;z-index: 9999; max-height: 103px;overflow-y: auto;}
+
+
+@media(max-width:1920px){
+    .ffilmOuter .ffilmInner .ffilmDetails { margin-top: 0;}
+
+}
+
+
+@media(max-width:1500px){
+    .reviewInput input {min-height: 47px;font-size: 18px;}
+    .reviewInput textarea {min-height: 210px;font-size: 18px;}
+/*    .reviewEditor .box2 {min-height: 650px;}*/
+    .commReviews .dropDown {width: 15%}
+    .filmsSlide .slideinner3 .vCard {min-height: 320px; max-height: 320px;}
+    .ffilmOuter .ffilmInner {padding: 38px 60px;}
+    .ffilmOuter .ffilmInner {padding: 32px 60px;}
+    .tac {margin-bottom: 57px;font-size: 32px;}
+    .ffilmOuter .ffilmInner .ffilmDetails {margin-top: -30px;}
+    .ffilmOuter .ffilmInner .ffilmDetails p {font-size: 18px;}
+    .ffilmOuter .ffilmInner .ffilmDetails h3 {font-size: 32px;}
+    .ffilmOuter .ffilmInner .ffilmDetails .vcardInfo2 {margin-bottom: 10px;}
+}
+@media(max-width:1280px){
+    .ffilmOuter .ffilmInner .ffilmDetails p {font-size: 16px;}
+    .slideinner3 .vCard .vcardInfo2 {top: 23%;}
+    .slideinner3 .vCard .vCardInfo h2 {font-size: 30px;margin-bottom: 10px;}
+    .ffilmOuter .ffilmInner {padding: 21px 60px;}
+}
+@media(max-width:1200px){
+    .reviewInput textarea {min-height: 150px;font-size: 16px;margin-top: 20px;}
+    .reviewInput #charNum {bottom: 95px;}
+    .reviewInput input {font-size: 16px;}
+    .rangeslider__handle {width: 20px!important;height: 20px!important;}
+/*    .reviewEditor .box2 {min-height: 550px;}*/
+    .ffilmOuter .ffilmInner {padding: 0px 60px;}
+    .tac {margin-bottom: 20px;font-size: 32px;}
+    .ffilmOuter .ffilmInner .ffilmDetails {margin-top: 0px;}
+    .vCard .vCardInfo {bottom: 19px;}
+    .slideinner3 .vCard .vCardInfo h2 {font-size: 28px;}
+    .slideinner3 .vCard .vCardInfo p {font-size: 14px;}
+    .slideinner3 .vCard .timer {font-size: 17px;}
+    .stucomm .commReviews .vCard .vCardImg {min-height: 325px;}
+    .stucomm .commReviews .vCard .vcardInfo2 {top: 25%;}
+    
+}
+@media(max-width:991px){
+/*    .reviewEditor .box2 {min-height: 920px;}*/
+    .reviewInput {margin-top: 30px;}
+    .rBanner .playBtn img {width: 50px;}
+    .reviewTitle1 .reviewEditbtn {text-align: left;}
+    #movieReview .vCard {min-height: 240px;}
+    .tac {    margin-bottom: 120px;}
+    .ffilmOuter .ffilmInner {padding: 40px 60px;}
+    .topReviews .helpful {bottom: 21px;}
+    .uploadFilms .p-films h5 {font-size: 30px;}
+    
+}
+@media(max-width:764px){
+    .l0go1 {text-align: center;}
+    .reviewEditor {padding-top: 50px}
+    .filmDetails .headings h2 {text-align: center;}
+    .fDetailsPara {text-align: center;}
+    .filmDetails .likeBtns {right: 0;transform:translate(-50%,-50%);top: 50%;left: 53%;}
+    .reviewEditor .reviewBox .reviewInner {padding: 32px;}
+    .sliderPoints p {margin-bottom: 10px;}
+    .range-slider {margin-bottom: 30px;}
+    .dropDown .col-sm-4:first-child .dropdown {float: none;min-width: 100%;}
+    .dropDown .dropdown {min-width: 100%;margin-bottom: 20px;}
+    .dropDown .col-sm-4:last-child .dropdown {min-width: 100%;float: none;}
+    .reviewTitle1 .s-mit {min-width: 100%;}
+    .commReviews .dropDown {margin-bottom: 20px;margin-top: 20px;width: 100%;}
+    .theaterRev {padding-top: 0;}
+    .tac {margin-bottom: 20px;}
+    .ffilmOuter .ffilmInner {padding: 15px 35px;}
+    .featuredFilm .vcardInfo2 .rating-md {margin-top: 0px;font-size: 22px!important;}
+    .ffilmOuter .ffilmInner .ffilmDetails h3 {font-size: 26px;margin-bottom: 0px;}
+    .ffilmOuter .ffilmInner .ffilmDetails .vcardInfo2 label {padding-left: 0px;display: block; font-size: 14px;}
+    .ffilmOuter .ffilmInner .ffilmDetails p {font-size: 14px;}
+    .featuredFilm .ffilmOuter {min-height: 380px;}
+    .hottestFilm .playBtn img {width: 60px;}
+    .slideinner3 .vcardInfo2 .rating-md {font-size: 22px!important;margin-top: 0px;}
+    .filmsSlide {top: -110px;}
+    .slideinner3 .vCard .vCardInfo h2 {font-size: 26px;margin-bottom: 4px;}
+    .stucomm .commReviews .vCard .vCardImg {min-height: 300px;}
+    .ffilmOuter .ffilmInner .ffilmDetails {text-align: center;}
+    .uploadFilms .p-films h5 {font-size: 22px;}
+    
+    
+    
+/*    .reviewEditor .box2 {min-height: 1270px;}*/
+    .fDetailsPara {padding-right: 0px;}
+}
+@media(max-width:480px){
+    #movieReview .vCard {min-height: 270px;}
+    #movieReview .vCard .vCardInfo h2 {margin-bottom: 12px;}
+    .brMore .dropdown button {font-size: 22px;}
+}
+@media(max-width:375px){
+    .reviewEditor .box2 {min-height: 1320px;}
+    
+    .rHeader .menu .nav > li > a {padding: 10px 4px;}
+    .rBanner .playBtn {top: 28%;}
+    .artists .vCard {margin: 0;}
+    .tac {font-size: 26px;}
+    
+}
+@media(max-width:320px){
+    .filmDetails .likeBtns {left: 48%;}
+    .reviewEditor .reviewBox .reviewInner h3:first-child {font-size: 28px;}
+    .range-slider input {width: 90%;}
+    .reviewEditor .reviewBox .reviewInner {padding: 25px;}
+    #movieReview .vCard .vCardInfo p {font-size: 15px;}
+    #movieReview .vCard {min-height: 280px;}
+    .reviewEditor .container-fluid {padding: 0px 20px;}
+    .uploading .s-mit {min-width: 100%;}
+    .hdr-bg .menu .nav > li > a {padding: 0px 4px;}
+    .rBanner .playBtn {top: 30%;}
+    .stucomm .commReviews .vCard .vCardImg {min-height: 320px;}
+    .commReviews .vCard .vCardInfo {bottom: 5px;}
+   
+    
+    
+/*    .reviewEditor .box2 {min-height: 1300px;}*/
+}
+
+
+.alert-success{
+    widows: 30%;
+    position: absolute;
+    right: 0;
+    z-index: 99;
+}
+#carousel3Img .owl-nav, .slideinner3 .owl-nav{
+    display: none;
+}
+
+
+
+
+.dropdown .dropdown-menu{
+    z-index: 9999;
+}
+
+
+#reviewLoadMore, #filmLoadMore{
+    margin: 0 auto;
+}
+
+/* Login and Registration page css */
+
+.registerHead {margin-bottom: 25px;}
+.sotlLogin {padding: 60px 0px;}
+.logForm {padding: 0 30%;}
+.registerHead {color: #fff;text-align: center;}
+.logForm input {width: 100%;min-height: 47px;padding: 5px 10px;font-size: 18px;border-radius: 0px;}
+.logForm label {font-size: 22px; font-weight: 400; color: #fff;margin-bottom: 10px;}
+.logForm .form-group {margin-bottom: 25px;}
+.logForm button {margin-top: 25px;width: 100%;}
+.logForm a {margin-top: 25px;width: 100%;}
+.logForm .editButton {width: 100%;margin-top: 0;margin-bottom: 0!important;}
+.logForm .editButton a {border: 2px solid #57595a ; display: block; text-align: center; cursor: pointer; color: #95989a;}
+.logForm .fbButton a {background-color: #3b5998 ;border: none;}
+.logForm .fbButton a:hover {color: #fff;background-color: #476bb7 ;}
+.logForm .linkedButton a {background-color: #0073b2 ; border: none;}
+.logForm .linkedButton a:hover {color: #fff;background-color: #009cda ;}
+.logForm .editButton.fbButton a, .logForm .editButton.linkedButton a{
+    color: #fff;
+}
+@media(max-width:1200px){
+   .logForm {padding: 0 20%;}
+   .logForm label {font-size: 20px;}
+}
+@media(max-width:991px){
+   .logForm {padding: 0 5%;}
+   .logForm h1 {font-size: 30px;}
+   .logForm label {font-size: 18px;}
+   .logForm input {font-size: 16px;}
+}
+@media(max-width:764px){
+   .sotlLogin {padding: 30px 0;}
+   .logForm h1 {font-size: 25px;}
+}
+@media(max-width:480px){
+   .logForm {padding: 0}
+   .logForm .s-mit {padding: 12px 22px;}
+   .logForm .form-group {margin-bottom: 20px;}
+}
+.alert-danger{
+    border: 1px solid #57595a;
+    border-radius: 0px;
+    margin-bottom: 0;
+}
+.helpful.active a{
+    color: #097b03;
+}
+
+/*PROFILE PAGE CSS*/
+
+.sotlProfile {padding: 65px 0px;}
+.sotlProfile h3 {text-align: center; color: #fff;text-transform: uppercase;font-weight: 400;margin: 0;}
+.outlineBox {border: 1px solid #76787a;padding: 45px;}
+.outlineBox .row {margin-bottom: 10px;}
+.outlineBox .row:last-child {margin-bottom: 0px;}
+.outlineBox2 {margin-top: 40px;}
+.outlineBox input {background-color: transparent; border: none;color: #fff;outline: none;}
+.w100 input {width: 100%;border-bottom: 1px solid #fff;min-height: 38px;font-size: 18px;}
+.outlineBox h5 {width: 100%; color: #fff;text-transform: uppercase;font-weight: 300;margin-top: 8px;font-size: 25px;}
+.personalDetailsInner {padding-top: 30px;}
+.c-chkbox .chkbox {position: relative;}
+/* Checkbox customized*/
+.c-chkbox label {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding-left: 35px;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 200;
+    margin-bottom:0;
+    padding-top: 4px;
+    color: #fff;
+}
+.c-chkbox .chkbox{position: relative;padding: 7px 0px;}
+.c-chkbox input[type=checkbox] {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index:9;
+    cursor:pointer;
+}
+.c-chkbox input[type=radio] {
+    display: none;
+}
+.c-chkbox label:before {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    position: absolute;
+    left: 0;
+    top: 1px;
+    /* background-color: #ECECEC; */
+    border: 1px solid #C8C8C8;
+    border-radius: 4px;
+    transition:background-color 0.2s ease-in-out 0.02s;
+}
+.c-chkbox .checkbox label:before {
+    border-radius: 8px;
+}
+.c-chkbox .checkbox label:before {
+    border-radius: 3px;
+}
+.c-chkbox input[type="checkbox"]:checked + label:before {
+    content: "";
+   background-image: url(../img/check-mark.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    border:none;    
+    background-color: #438800;
+    font-size: 15px;
+    color: #333;
+    text-align: center;
+    line-height: 15px;
+}
+.c-chkbox input[type="radio"]:checked + label:before {
+    content: "";
+    background-image: url(../img/icon_smchkbox.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    border:none;
+    background-color: #438800;
+    font-size: 15px;
+    color: #333;
+    text-align: center;
+    line-height: 15px;
+}
+.studentChallenge span {padding-left: 15px;color: #fff;font-size: 25px;}
+.heatScore .fa {font-size: 30px; color: #ffc520;}
+.personalDetailsInner .percentCount {
+    position: absolute;
+    clear: both;
+    font-weight: 400;
+    right: 8px;
+    top: 4px;
+    color: #898989;
+    margin-top: 0;
+}
+.personalDetailsInner .progressbar {
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+.personalDetailsInner .text-right{
+        margin-top: 15px;
+}
+
+@media(max-width:1500px){
+    .sotlProfile h3 {font-size: 32px;}
+    .outlineBox h5 {font-size: 22px;}
+    .stucomm{
+        margin-top: -70px;
+    }
+}
+@media(max-width:1320px){
+    .sotlProfile h3 {font-size: 28px;}
+    .outlineBox h5 {font-size: 20px;}
+    .w100 input {font-size: 16px;}
+    .personalDetailsInner {padding-top: 20px;}
+    .c-chkbox .chkbox {padding: 5px 0px;}
+    .personalDetailsInner .progressbar {margin-top: 5px;}
+}
+@media(max-width:1024px){
+    .outlineBox {padding: 30px;}
+    .outlineBox h5 {font-size: 18px;}
+    .sotlProfile h3 {font-size: 24px;}
+    .w100 input {font-size: 14px;min-height: 32px;}
+    .c-chkbox label {padding-top: 1px;}
+    .c-chkbox label:before {width: 20px; height: 20px;}
+    .outlineBox2 {margin-top: 30px;}
+    .studentChallenge span {font-size: 18px;vertical-align: text-bottom;}
+    .heatScore {padding-top: 4px;}
+    .heatScore .fa {font-size: 25px;}
+}
+@media(max-width:991px){
+    .outBox3 {margin-top: 30px;}
+}
+@media(max-width:767px){
+    .outlineBox h5 {margin-bottom: 0;}
+    .outlineBox2 h5 {margin-bottom: 10px;}
+    .outlineBox .row {margin-bottom: 20px;}
+    .outlineBox2 .row {margin-bottom: 10px;}
+    .sotlProfile {padding: 30px 0px;}
+    .outBox3 h5 {margin-bottom: 10px;}
+    .personalDetailsInner .text-right{
+        text-align: left !important;
+        margin-top: 5px;
+    }
+}
+@media(max-width:480px){
+    .outlineBox {padding: 20px;}
+    .outlineBox h5 {font-size: 16px;}
+    .outBox3 .row {margin-bottom: 15px;}
+}
+@media(max-width:320px){
+    .studentChallenge span {font-size: 15px; vertical-align: bottom;padding-left: 10px;}
+    .heatScore .fa {font-size: 20px;}
+    .sotlProfile h3 {font-size: 22px;}
+}
+.s-mit2 {
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid #57595a;
+    color: #95989a;
+    text-transform: uppercase;
+    padding: 5px 7px;
+    font-size: 12px;
+    min-width: 100px;
+}
+.s-mit2:hover {background-color: #fff;color: #3c3c3c;transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+ border-color: #fff;
+}
+
+
+
+    .dropDown .dropdown .btn{position:relative;}
+      .dropDown .dropdown .btn:after {
+    content:"\f107";
+    font-family:"FontAwesome";
+    position:absolute;
+    
+   right:20px;
+    }
+
+.heatBadges span{
+    display: inline-block;
+    padding-top: 5px;
+}
+.heatBadges .rating-stars{
+    font-size: 25px;
+}
+.heatBadges .rating-md {
+    display: inline-block;
+}
+
+
+
+.modal-header .close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 99999999999999;
+    color: rgb(255, 255, 255);
+    opacity: 1;
+}
+.modal-header {
+    padding-top: 0px;
+    border-bottom: 0px solid #e5e5e5;
+    position: relative;
+}
+
+.helpful.active{
+    text-decoration: none !important;
+}
+.helpful.active a{
+    color: #097b03;
+    text-decoration: none !important;
+}
+.notLogged.helpful{
+     text-decoration: none !important;
+}
+.l0go1.active {
+    text-align: left;
+    margin: 0px 60px;
+}
+
+.tParaInfo{color:#fff;font-size:20px;padding:0 15%}
+.film.file-upload{
+    text-align: left;
+    margin-top: 0;
+}
+
+.film.file-upload .inputfile + label {
+    margin-bottom: 10px;
+}
+
+.uploading .modal-body {
+    text-align: center;
+}
+.uploading .c-message p{
+ color: #95989a; 
+ margin-top: 20px;
+}

@@ -1,0 +1,80 @@
+
+
+body{font-family: 'Work Sans', sans-serif;}
+
+.container-fluid{padding-left: 60px;padding-right: 60px;}
+
+a:hover{text-decoration: none;}
+
+/*<< TYPOGRAPHY >>*/
+h2{font-size: 42px;}
+h3{font-size: 36px;}
+h4{font-size: 30px;letter-spacing: 2px;font-weight: 300;}
+h5{font-size: 24px;}
+h5{font-size: 20px;}
+h6{font-size: 18px;}
+
+
+.txtWWW{color: #fff!important;}
+.txtGGG{color: #9f9694!important;}
+.txt20{font-size: 20px;}
+.txt22{font-size: 22px;}
+.txt24{font-size: 24px;}
+.txt30{font-size: 30px;}
+
+.txt200{font-weight: 200;}
+.txt300{font-weight: 300;}
+.txt400{font-weight: 400;}
+
+
+.bg090{background-color: #090909;}
+
+.rightArrow{border-left: 7px solid #fff;border-top: 7px solid transparent;border-bottom: 7px solid transparent;width: 0;height: 0;display: inline-block;}
+
+/*<< SECTION >>*/
+
+section{}
+section.section00{padding: 50px 0;}
+section.section01{padding: 50px 0 0 0;}
+section.section02{padding: 0 0 50px 0;}
+
+section.section68{padding: 50px 0;}
+section.section100{padding: 100px 0;}
+
+section .secHdr{margin-bottom: 40px;}
+section.sec000 {padding: 30px 0;}
+
+
+
+/* << HOVER >> */
+a.hvr-underline-from-center:before{background: #fff!important;}
+
+
+/* << CARDS >> */
+.vCard{position: relative;display: inline-block;overflow: hidden;border: 1px solid #252525;}
+
+.vCardGradient{position: absolute;top: 0;left: 0;right: 0;bottom: 0;width: 100%;height: 100%;background: rgba(255,255,255,0);background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(61,61,61,0) 44%, rgba(0,0,0,1) 100%);background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0)), color-stop(44%, rgba(61,61,61,0)), color-stop(100%, rgba(0,0,0,0.75)));background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(61,61,61,0) 44%, rgba(0,0,0,0.75) 100%);background: -o-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(61,61,61,0) 44%, rgba(0,0,0,0.75) 100%);background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(61,61,61,0) 44%, rgba(0,0,0,0.75) 100%);background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(61,61,61,0) 44%, rgba(0,0,0,0.75) 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff ', endColorstr='#000000 ', GradientType=0 );z-index: 9909;}
+.vCard .vCardImg{width: 100%;transition: all 0.2s linear;-webkit-transition: all 0.2s linear;}
+
+.vCard .vCardInfo{position: absolute;bottom: 30px;left: 20px;width: auto;max-width: auto;transition: all 0.2s linear;-webkit-transition: all 0.2s linear;}
+.vCard.vCard2 .vCardInfo{position: absolute;bottom: 30px;left: 40px;width: auto;max-width: auto;transition: all 0.2s linear;-webkit-transition: all 0.2s linear;}
+
+.vCard .vCardInfo22{position: absolute;bottom: 10px;left: 20px;width: auto;max-width: auto;transition: all 0.2s linear;-webkit-transition: all 0.2s linear;z-index: 9999;}
+.vCard .vCardInfo22 p{margin: 0; font-size: 18px;}
+.vCard .vCardInfo22 h5{margin: 0; font-size: 24px;}
+
+
+
+.vCard{overflow: hidden;}
+.vCard:hover .vCardImg{transform:scale(1.1);}
+.vCard:hover .vCardInfo{bottom: 40px;}
+.vCard .vCardInfo h2{margin-bottom: 0;}
+
+
+.fs20 {font-size: 20px;}
+
+
+.text-center {text-align: center;}
+
+
+.player .sidedock, .player .sidedock .sidedock-inner{display: none;}

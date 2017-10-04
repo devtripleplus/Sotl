@@ -1,0 +1,328 @@
+<?php
+
+namespace App\Http\Controllers;
+use App\User;
+use App\Reviews;
+use App\Films;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Input;
+use Auth;
+use Socialite;
+use App\Session;
+use App\Temp;
+class UserController extends Controller
+{
+	
+   public function __construct()
+    {   
+        $this->middleware('auth')->except(['store','startSession','destroy','userManage', 'autocompleteLocation', 'loginWithWP', 'destroylaravel']);
+    }
+
+    //user logout controller
+
+    public function destroy($value='')
+    {
+    	 Auth::logout();
+    	 return redirect('/');
+    }
+public function destroylaravel()
+    {
+      echo   $userID = request('userID');
+        $session = Session::where('user_id', $userID)->delete();
+return redirect('http://wp.sneakon.com/wp-login.php?reauth=1');
+    }
+    // Registration controller
+
+    public function store()
+    { 
+        $this->validate(request(),[
+            'name' => 'required|string|max:255',
+            'email' => 'required|string|email|max:255|unique:users',
+            'password' => 'required|string|min:6|confirmed',
+            'location' => 'required|string'
+        ]);
+
+        $user = User::create([
+            'name' => request('name'),
+            'email' => request('email'),
+            'password' => bcrypt(request('password')),
+            'role' => request('role'),
+            'location' => request('location')
+        ]);
+
+        if($user){
+            Auth::login($user);
+            return redirect('/');
+        }
+    }
+
+    //method to get all users locations\
+    public function getAllUsersLocations()
+    {
+        return User::select('location')->distinct()->get()->toArray();
+    }
+
+
+    //login controller
+
+    public function startSession()
+    {
+        $this->validate(request(),[
+            'email' => 'required|string|email|max:255',
+            'password' => 'required|string|min:6'
+        ]);
+    	if(!Auth::attempt(request(['email', 'password']))){
+    		return back()->withErrors(array('message' => 'User does not exist. Please try with another account.'));
+    	}
+
+    	if(Auth::user()->role == 'admin'){
+    		return redirect('/admin');
+    	}
+    	return redirect('/');
+    	
+    }
+    //method to login with php
+public function loginWithWP(Request $request)
+    {
+//        $this->validate(request(),[
+  //          'email' => 'required|string|email|max:255',
+    //        'user_id' => 'required',
+      //      'rand_token' => 'required',
+        ]);
+        $role = 'student';
+        $check_temp = Temp::where('user_id', request('user_id'))->get()->count();
+        if(empty($check_temp)){
+            $temp = Temp::create([
+                'user_id' => request('user_id'),
+                'rand_token' => request('rand_token'),
+            ]);
+	     $username = request('userfullname');
+            if($username == ''){
+                $username = request('email');
+            }
+            if($temp){
+                $user = User::create([
+                    'id' => request('user_id'),
+                    'email' => request('email'),
+                    'name' => $username,
+                    'role' => $role,
+                ]);
+                if($user){
+                    Auth::login($user);
+                    return redirect('http://wp.sneakon.com/');
+                }
+            }
+        }
+        else{
+            if(Auth::loginUsingId(request('user_id'), true)){
+              return redirect('http://wp.sneakon.com/');
+            }
+        }
+       return redirect('http://wp.sneakon.com/');
+        
+    }
+    //admin user management controller
+
+    public function userManage()
+    {
+        if(!(Auth::user() && Auth::user()->role == 'admin')){
+            return redirect('/login');
+        }
+        
+        $data = User::all()->where('role','!=','admin');
+        return view('admin.index',compact('data'));
+    }
+    
+    public function showLogin()
+    {
+       if(Auth::user()){
+            return redirect('/');
+       }
+       return view('layouts.login');
+    }
+
+    public function userEdit($id)
+    {
+        if(auth()->user()->role == 'admin'){
+            $user = User::getUser($id);
+            return view('admin.edituser',compact('user'));
+        }
+        return redirect('/');
+        
+    }
+
+    public function userUpdate($id)
+    {   $user = User::getUser($id);
+        if(auth()->user()->role == 'admin' || auth()->user()->id == $id){
+            $this->validate(request(),[
+                'name' => 'required|string|max:255',
+                'email' => 'required|string|email|max:255',
+            ]);
+
+            $user = User::find($id);
+            $user->name = request('name');
+            $user->email = request('email');
+            $user->institution = request('institution');
+            $user->course = request('course');
+            $user->role = request('role');
+            $updatePost = $user->save();
+
+            if($updatePost){
+                //return redirect('/admin');
+                Session::flash('message', 'Profile updated successfully');
+                return back();
+            }
+        }
+        return redirect('/');
+        
+    }
+
+    public function userDelete($id)
+    {
+        $user = User::find($id);
+        $user->delete();
+        return back()->with('msg', 'User deleted successfully');
+    }
+    public function visitProfile()
+    {
+       $user = Auth::user();
+       return view('student.profile', compact('user'));
+    }
+
+    public function update()
+    {
+        $this->validate(request(),[
+            'name' => 'required|string|max:255',
+            'email' => 'required|string|email|max:255',
+            'institution' => 'required'
+        ]);
+        $user = Auth::user();
+        $user->name = request('name');
+        $user->email = request('email');
+        $user->institution = request('institution');
+        $user->course = request('course');
+        //$user->password = bcrypt(request('password'));
+        $userstatus = $user->save();
+        if($userstatus){
+            Session::flash('message', 'Profile updated successfully');
+            return back();
+        }
+
+    }
+    public function updateAdmin()
+    {
+        $this->validate(request(),[
+            'name' => 'required|string|max:255',
+            'email' => 'required|string|email|max:255',
+            'password' => 'required|confirmed'
+        ]);
+        $user = Auth::user();
+        $user->name = request('name');
+        $user->email = request('email');
+        $user->password = bcrypt(request('password'));
+        $userstatus = $user->save();
+        if($userstatus){
+            Session::flash('message', 'Profile updated successfully');
+            return back();
+        }
+
+    }
+
+
+        //* Ajax Responce for location on sign up
+    public function autocompleteLocation(){
+        $term = Input::get('term');
+        
+        $results = array();
+        
+        $queries = User::select("location")->where('location', 'LIKE', '%'.$term.'%')->get();
+        
+        foreach ($queries as $query)
+        {
+            $results[] = [ 'id' => $query->id, 'value' => $query->location ];
+        }
+    return response()->json($results);
+    }
+
+    //to update challeges of users on profile page
+    public function updateChallenges()
+    {
+       $user_id = Auth::user()->id;
+       $user = User::find($user_id);
+       if(!empty($user->challenges)){
+         $challenges =  unserialize($user->challenges);
+       }
+       else{
+         $challenges = array();
+       }   
+       if(request('enable') == 1){
+         array_push($challenges, request('challenge'));
+       }
+       else{
+         $challenges = array_diff($challenges, array(request('challenge')));
+       }
+       $user->challenges = serialize($challenges);
+       if($user->save()){
+         return 'true';
+       }
+       Session::flash('message', 'Some problem occured!!');
+       return back();
+    }
+
+    //method to admin dashboard
+    public function adminDashboard()
+    {
+       $info = array();
+       $countFilms = Films::count();
+       $countUsers = User::count();
+       $info = array('films' => $countFilms, 'users' => $countUsers);
+       return view('admin.dashboard', compact('info'));
+    }
+    
+
+    //
+    public function getUpdatedChallenges()
+    {
+        $checked1 = $checked2 = $checked3 = '';
+        if(!empty(Auth::user()->challenges)){
+            $challenges = unserialize(Auth::user()->challenges);
+        }
+        else{
+            $challenges = array();
+        }
+         
+        if(in_array('c1', $challenges)){
+             $checked1 = 'checked';
+        }
+        if(in_array('c2', $challenges)){
+             $checked2 = 'checked';
+        }
+        if(in_array('c3', $challenges)){
+             $checked3 = 'checked';
+        }
+        return array('checked1' => $checked1, 'checked2' => $checked2, 'checked3' => $checked3);
+    }
+    
+    //method to calculate fame score of current user
+    public function getFameScore()
+    {
+        $count = Reviews::where('user_id','=',Auth::user()->id)->count();
+        $reviews = Reviews::where('user_id','=',Auth::user()->id)->get()->toArray();
+        $totalHelpFul = 0; 
+        if($reviews){
+            foreach ($reviews as $review) {
+                $totalHelpFul = $totalHelpFul + $review['helpfullreviewcount'];
+            }
+        }
+        else{
+            $count = 0;
+            $totalHelpFul = 0;
+        }
+        if($count || $totalHelpFul){
+            $totalFame = $count * 50 + $totalHelpFul;
+        }
+        return array('totalReview' => $count, 'totalHelpful' => $totalHelpFul, 'totalFame' => $totalFame);
+    }
+
+   
+}
